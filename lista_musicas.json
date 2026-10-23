@@ -1,0 +1,33 @@
+[
+  {
+    "album": "Geral",
+    "folder": "",
+    "tracks": [
+      {
+        "name": "06 - Tell Me When.mp3",
+        "path": "06 - Tell Me When.mp3",
+        "title": "Tell Me When",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 269.6
+      },
+      {
+        "name": "07 - Every Little Thing.mp3",
+        "path": "07 - Every Little Thing.mp3",
+        "title": "Every Little Thing",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 201.3
+      },
+      {
+        "name": "08 - There Is a Spell over This City.mp3",
+        "path": "08 - There Is a Spell over This City.mp3",
+        "title": "There Is a Spell over This City",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 248.1
+      }
+    ],
+    "count": 3
+  }
+]

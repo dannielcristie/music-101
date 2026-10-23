@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music 101</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎵</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Login Screen -->
+    <div id="login-screen">
+        <div class="login-box">
+            <div class="login-logo">🎵</div>
+            <h1>Music 101</h1>
+            <p>Digite a senha para acessar sua coleção.</p>
+            <input type="password" id="password-input" placeholder="Senha" autocomplete="current-password">
+            <button onclick="checkPassword()">Entrar</button>
+            <p id="login-error" class="login-error">Senha incorreta!</p>
+        </div>
+    </div>
+
+    <!-- Protected Content -->
+    <div id="main-content" style="display: none;">
+        <header>
+            <h1>🎵 Music 101</h1>
+            <button class="lock-btn" onclick="lockLibrary()" title="Trancar coleção">🔒</button>
+        </header>
+
+        <main>
+            <div class="search-wrapper">
+                <input type="text" id="search-input" placeholder="🔍 Buscar música, artista ou álbum..." autocomplete="off" oninput="handleSearch(this.value)">
+            </div>
+
+            <div id="navigation-bar" class="folder-nav-bar" style="display: none;"></div>
+            <div id="loading">Carregando sua coleção...</div>
+            <div id="library-container" class="content-container"></div>
+        </main>
+
+        <!-- Player -->
+        <div id="player-bar" class="player-bar" aria-label="Player de música">
+            <div class="player-track">
+                <div id="player-cover" class="player-cover">🎵</div>
+                <div class="player-meta">
+                    <div id="player-title" class="player-title">Nenhuma música selecionada</div>
+                    <div id="player-artist" class="player-artist">Escolha uma faixa para começar</div>
+                </div>
+            </div>
+
+            <div class="player-center">
+                <div class="player-controls">
+                    <button id="shuffle-btn" class="icon-btn" onclick="toggleShuffle()" title="Aleatório" aria-label="Aleatório">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="m4 4 5 5"/></svg>
+                    </button>
+                    <button id="prev-btn" class="icon-btn" onclick="playPrevious()" title="Anterior" aria-label="Faixa anterior">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2.2v12H6zM18 6.5v11a.6.6 0 0 1-.94.5l-8.2-5.5a.6.6 0 0 1 0-1l8.2-5.5a.6.6 0 0 1 .94.5Z"/></svg>
+                    </button>
+                    <button id="play-btn" class="play-btn" onclick="togglePlay()" title="Tocar" aria-label="Tocar">
+                        <svg id="play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.2v13.6a.6.6 0 0 0 .92.5l10.4-6.8a.6.6 0 0 0 0-1L8.92 4.7A.6.6 0 0 0 8 5.2Z"/></svg>
+                        <svg id="pause-icon" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6.5 4.5h3.4v15H6.5zM14.1 4.5h3.4v15h-3.4z"/></svg>
+                    </button>
+                    <button id="next-btn" class="icon-btn" onclick="playNext()" title="Próxima" aria-label="Próxima faixa">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.8 6H18v12h-2.2zM6 6.5v11a.6.6 0 0 0 .94.5l8.2-5.5a.6.6 0 0 0 0-1L6.94 6a.6.6 0 0 0-.94.5Z"/></svg>
+                    </button>
+                    <button id="repeat-btn" class="icon-btn" onclick="cycleRepeat()" title="Repetir: desligado" aria-label="Repetir">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+                        <span id="repeat-one-badge" class="repeat-one-badge">1</span>
+                    </button>
+                </div>
+
+                <div class="player-progress">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="seek-bar" min="0" max="100" step="0.1" value="0" aria-label="Progresso da música">
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="player-right">
+                <button id="mute-btn" class="icon-btn volume-btn" onclick="toggleMute()" title="Silenciar" aria-label="Silenciar">
+                    <svg id="volume-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+                    <svg id="muted-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5Z"/><path d="m22 9-6 6"/><path d="m16 9 6 6"/></svg>
+                </button>
+                <input type="range" id="volume-bar" min="0" max="1" step="0.01" value="0.9" aria-label="Volume">
+                <a id="download-btn" class="icon-btn download-btn" href="#" title="Baixar música" aria-label="Baixar música" download>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio" preload="metadata"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

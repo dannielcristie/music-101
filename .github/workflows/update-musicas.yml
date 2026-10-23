@@ -1,0 +1,51 @@
+name: Update Music List
+
+on:
+  push:
+    paths:
+      - '**/*.mp3'
+      - '**/*.m4a'
+      - '**/*.aac'
+      - '**/*.ogg'
+      - '**/*.oga'
+      - '**/*.opus'
+      - '**/*.wav'
+      - '**/*.flac'
+      - '**/*.webm'
+      - '**/*.wma'
+      - '**/*.aiff'
+      - '**/*.aif'
+      - 'generate_list.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install metadata reader
+        run: pip install mutagen
+
+      - name: Generate music list
+        run: python generate_list.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add lista_musicas.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update lista_musicas.json [skip ci]"
+            git push
+          fi
