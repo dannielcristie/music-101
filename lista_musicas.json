@@ -1,11 +1,384 @@
 [
   {
-    "album": "Geral",
-    "folder": "",
+    "album": "[12]  La Familia 013 (2013)",
+    "folder": "[12]  La Familia 013 (2013)",
     "tracks": [
       {
+        "name": "1. Um Dia a Gente Se Encontra.mp3",
+        "path": "[12]  La Familia 013 (2013)/1. Um Dia a Gente Se Encontra.mp3",
+        "title": "Um Dia a Gente Se Encontra",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 184.3
+      },
+      {
+        "name": "2. Fina Arte.mp3",
+        "path": "[12]  La Familia 013 (2013)/2. Fina Arte.mp3",
+        "title": "Fina Arte",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 181.5
+      },
+      {
+        "name": "3. Cheia de Vida.mp3",
+        "path": "[12]  La Familia 013 (2013)/3. Cheia de Vida.mp3",
+        "title": "Cheia de Vida",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 162.5
+      },
+      {
+        "name": "4. Meu Novo Mundo.mp3",
+        "path": "[12]  La Familia 013 (2013)/4. Meu Novo Mundo.mp3",
+        "title": "Meu Novo Mundo",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 207.1
+      },
+      {
+        "name": "5. Do Jeito Que Eu Gosto, Do Jeito Que Eu Quero.mp3",
+        "path": "[12]  La Familia 013 (2013)/5. Do Jeito Que Eu Gosto, Do Jeito Que Eu Quero.mp3",
+        "title": "Do Jeito Que Eu Gosto, Do Jeito Que Eu Quero",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 267.2
+      },
+      {
+        "name": "6. Rock Star.mp3",
+        "path": "[12]  La Familia 013 (2013)/6. Rock Star.mp3",
+        "title": "Rock Star",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 197.9
+      },
+      {
+        "name": "7. Vem Ser Minha.mp3",
+        "path": "[12]  La Familia 013 (2013)/7. Vem Ser Minha.mp3",
+        "title": "Vem Ser Minha",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 278.3
+      },
+      {
+        "name": "8. Hoje Sou Eu Que Não Mais Te Quero.mp3",
+        "path": "[12]  La Familia 013 (2013)/8. Hoje Sou Eu Que Não Mais Te Quero.mp3",
+        "title": "Hoje Sou Eu Que Não Mais Te Quero",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 302.9
+      },
+      {
+        "name": "9. Camisa Preta.mp3",
+        "path": "[12]  La Familia 013 (2013)/9. Camisa Preta.mp3",
+        "title": "Camisa Preta",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 256.0
+      },
+      {
+        "name": "10. Vou Me Embriagar de Você.mp3",
+        "path": "[12]  La Familia 013 (2013)/10. Vou Me Embriagar de Você.mp3",
+        "title": "Vou Me Embriagar de Você",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 264.7
+      },
+      {
+        "name": "11. A Mais Linda do Bar.mp3",
+        "path": "[12]  La Familia 013 (2013)/11. A Mais Linda do Bar.mp3",
+        "title": "A Mais Linda do Bar",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 214.0
+      },
+      {
+        "name": "12. Samba Triste.mp3",
+        "path": "[12]  La Familia 013 (2013)/12. Samba Triste.mp3",
+        "title": "Samba Triste",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 289.8
+      },
+      {
+        "name": "13. Contrastes da Vida.mp3",
+        "path": "[12]  La Familia 013 (2013)/13. Contrastes da Vida.mp3",
+        "title": "Contrastes da Vida",
+        "artist": "Charlie Brown Jr.",
+        "album": "La Familia 013",
+        "duration": 163.9
+      }
+    ],
+    "count": 13
+  },
+  {
+    "album": "[6] Acústico MTV (2003)",
+    "folder": "[6] Acústico MTV (2003)",
+    "tracks": [
+      {
+        "name": "1. Quebra-Mar.mp3",
+        "path": "[6] Acústico MTV (2003)/1. Quebra-Mar.mp3",
+        "title": "Quebra-Mar",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 114.0
+      },
+      {
+        "name": "2. O Que é da Casa é da Casa - Papo Reto (Prazer é Sexo O Resto é Negócio).mp3",
+        "path": "[6] Acústico MTV (2003)/2. O Que é da Casa é da Casa - Papo Reto (Prazer é Sexo O Resto é Negócio).mp3",
+        "title": "O Que é da Casa é da Casa - Papo Reto (Prazer é Sexo O Resto é Negócio)",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 272.0
+      },
+      {
+        "name": "3. Zóio de Lula.mp3",
+        "path": "[6] Acústico MTV (2003)/3. Zóio de Lula.mp3",
+        "title": "Zóio de Lula",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 225.0
+      },
+      {
+        "name": "4. Vícios e Virtudes.mp3",
+        "path": "[6] Acústico MTV (2003)/4. Vícios e Virtudes.mp3",
+        "title": "Vícios e Virtudes",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 190.0
+      },
+      {
+        "name": "5. Hoje.mp3",
+        "path": "[6] Acústico MTV (2003)/5. Hoje.mp3",
+        "title": "Hoje",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 262.6
+      },
+      {
+        "name": "6. O Preço.mp3",
+        "path": "[6] Acústico MTV (2003)/6. O Preço.mp3",
+        "title": "O Preço",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 194.0
+      },
+      {
+        "name": "7. Tudo Pro Alto.mp3",
+        "path": "[6] Acústico MTV (2003)/7. Tudo Pro Alto.mp3",
+        "title": "Tudo Pro Alto",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 184.1
+      },
+      {
+        "name": "8. Não Uso Sapato.mp3",
+        "path": "[6] Acústico MTV (2003)/8. Não Uso Sapato.mp3",
+        "title": "Não Uso Sapato",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 172.9
+      },
+      {
+        "name": "9. O Coro Vai Comê!.mp3",
+        "path": "[6] Acústico MTV (2003)/9. O Coro Vai Comê!.mp3",
+        "title": "O Coro Vai Comê!",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 128.1
+      },
+      {
+        "name": "10. Tudo o Que ela Gosta de Escutar.mp3",
+        "path": "[6] Acústico MTV (2003)/10. Tudo o Que ela Gosta de Escutar.mp3",
+        "title": "Tudo o Que ela Gosta de Escutar",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 191.0
+      },
+      {
+        "name": "11. Não é Sério.mp3",
+        "path": "[6] Acústico MTV (2003)/11. Não é Sério.mp3",
+        "title": "Não é Sério",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 320.4
+      },
+      {
+        "name": "12. Vinheta Beat Box II - Como Tudo Deve Ser.mp3",
+        "path": "[6] Acústico MTV (2003)/12. Vinheta Beat Box II - Como Tudo Deve Ser.mp3",
+        "title": "Vinheta Beat Box II - Como Tudo Deve Ser",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 282.3
+      },
+      {
+        "name": "13. A Banca (Ratatá é Bicho Solto).mp3",
+        "path": "[6] Acústico MTV (2003)/13. A Banca (Ratatá é Bicho Solto).mp3",
+        "title": "A Banca (Ratatá é Bicho Solto)",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 240.3
+      },
+      {
+        "name": "14. Samba Makossa.mp3",
+        "path": "[6] Acústico MTV (2003)/14. Samba Makossa.mp3",
+        "title": "Samba Makossa",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 246.1
+      },
+      {
+        "name": "15. Quinta-Feira.mp3",
+        "path": "[6] Acústico MTV (2003)/15. Quinta-Feira.mp3",
+        "title": "Quinta-Feira",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 317.2
+      },
+      {
+        "name": "16. Só Por Uma Noite.mp3",
+        "path": "[6] Acústico MTV (2003)/16. Só Por Uma Noite.mp3",
+        "title": "Só Por Uma Noite",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 190.4
+      },
+      {
+        "name": "17. Oba - Lá Vem Ela.mp3",
+        "path": "[6] Acústico MTV (2003)/17. Oba - Lá Vem Ela.mp3",
+        "title": "Oba - Lá Vem Ela",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 166.8
+      },
+      {
+        "name": "18. Tudo Mudar.mp3",
+        "path": "[6] Acústico MTV (2003)/18. Tudo Mudar.mp3",
+        "title": "Tudo Mudar",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 140.3
+      },
+      {
+        "name": "19. Proibida Pra Mim (Grazon).mp3",
+        "path": "[6] Acústico MTV (2003)/19. Proibida Pra Mim (Grazon).mp3",
+        "title": "Proibida Pra Mim (Grazon)",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 151.7
+      },
+      {
+        "name": "20. Charlie Brow Jr..mp3",
+        "path": "[6] Acústico MTV (2003)/20. Charlie Brow Jr..mp3",
+        "title": "Charlie Brow Jr.",
+        "artist": "Charlie Brown Jr.",
+        "album": "AcÃºstico MTV",
+        "duration": 229.7
+      }
+    ],
+    "count": 20
+  },
+  {
+    "album": "Natiruts Acustico",
+    "folder": "Natiruts acustico",
+    "tracks": [
+      {
+        "name": "04 - Andei só -  Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/04 - Andei só -  Natiruts Acustico.mp3",
+        "title": "04 - Andei só -  Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 263.0
+      },
+      {
+        "name": "05 - Au de cabe̤a - Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/05 - Au de cabe̤a - Natiruts Acustico.mp3",
+        "title": "05 - Au de cabe̤a - Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 235.4
+      },
+      {
+        "name": "09 - Quero ser feliz tamb̩m  -  Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/09 - Quero ser feliz tamb̩m  -  Natiruts Acustico.mp3",
+        "title": "09 - Quero ser feliz tamb̩m  -  Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 214.2
+      },
+      {
+        "name": "10 - Supernova -  -  Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/10 - Supernova -  -  Natiruts Acustico.mp3",
+        "title": "10 - Supernova -  -  Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 240.6
+      },
+      {
+        "name": "16 - Você Me Encantou Demais  -  Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/16 - Você Me Encantou Demais  -  Natiruts Acustico.mp3",
+        "title": "16 - Você Me Encantou Demais  -  Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 223.5
+      },
+      {
+        "name": "19 - Liberdade pra dentro da cabe̤a  -  Natiruts Acustico.mp3",
+        "path": "Natiruts acustico/19 - Liberdade pra dentro da cabe̤a  -  Natiruts Acustico.mp3",
+        "title": "19 - Liberdade pra dentro da cabe̤a  -  Natiruts Acustico",
+        "artist": null,
+        "album": null,
+        "duration": 255.8
+      }
+    ],
+    "count": 6
+  },
+  {
+    "album": "Roots Circus - Wednesdays",
+    "folder": "Roots Circus - Wednesdays",
+    "tracks": [
+      {
+        "name": "01 - Hungry Heart.mp3",
+        "path": "Roots Circus - Wednesdays/01 - Hungry Heart.mp3",
+        "title": "Hungry Heart",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 235.4
+      },
+      {
+        "name": "02 - Beautiful World.mp3",
+        "path": "Roots Circus - Wednesdays/02 - Beautiful World.mp3",
+        "title": "Beautiful World",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 187.8
+      },
+      {
+        "name": "03 - My Patient Beating Heart.mp3",
+        "path": "Roots Circus - Wednesdays/03 - My Patient Beating Heart.mp3",
+        "title": "My Patient Beating Heart",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 259.3
+      },
+      {
+        "name": "04 - Sadtown.mp3",
+        "path": "Roots Circus - Wednesdays/04 - Sadtown.mp3",
+        "title": "Sadtown",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 248.3
+      },
+      {
+        "name": "05 - Lover No. 1.mp3",
+        "path": "Roots Circus - Wednesdays/05 - Lover No. 1.mp3",
+        "title": "Lover No. 1",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 263.8
+      },
+      {
         "name": "06 - Tell Me When.mp3",
-        "path": "06 - Tell Me When.mp3",
+        "path": "Roots Circus - Wednesdays/06 - Tell Me When.mp3",
         "title": "Tell Me When",
         "artist": "Roots Circus",
         "album": "Wednesdays",
@@ -13,7 +386,7 @@
       },
       {
         "name": "07 - Every Little Thing.mp3",
-        "path": "07 - Every Little Thing.mp3",
+        "path": "Roots Circus - Wednesdays/07 - Every Little Thing.mp3",
         "title": "Every Little Thing",
         "artist": "Roots Circus",
         "album": "Wednesdays",
@@ -21,13 +394,45 @@
       },
       {
         "name": "08 - There Is a Spell over This City.mp3",
-        "path": "08 - There Is a Spell over This City.mp3",
+        "path": "Roots Circus - Wednesdays/08 - There Is a Spell over This City.mp3",
         "title": "There Is a Spell over This City",
         "artist": "Roots Circus",
         "album": "Wednesdays",
         "duration": 248.1
+      },
+      {
+        "name": "09 - Milky Way.mp3",
+        "path": "Roots Circus - Wednesdays/09 - Milky Way.mp3",
+        "title": "Milky Way",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 254.9
+      },
+      {
+        "name": "10 - Head Gone.mp3",
+        "path": "Roots Circus - Wednesdays/10 - Head Gone.mp3",
+        "title": "Head Gone",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 227.9
+      },
+      {
+        "name": "11 - Just One Place.mp3",
+        "path": "Roots Circus - Wednesdays/11 - Just One Place.mp3",
+        "title": "Just One Place",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 236.2
+      },
+      {
+        "name": "12 - Imagination.mp3",
+        "path": "Roots Circus - Wednesdays/12 - Imagination.mp3",
+        "title": "Imagination",
+        "artist": "Roots Circus",
+        "album": "Wednesdays",
+        "duration": 270.5
       }
     ],
-    "count": 3
+    "count": 12
   }
 ]
