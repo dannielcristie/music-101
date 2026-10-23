@@ -4,7 +4,7 @@ Um player de música moderno, rápido e responsivo, desenvolvido para ser hosped
 
 Modelado a partir do projeto [reading](https://github.com/dannielcristie/reading): mesma ideia de coleção pessoal com tela de senha, busca instantânea, navegação por álbuns e catálogo gerado automaticamente. A diferença é que aqui você ouve as músicas direto no navegador, com player fixo, fila, aleatório, repetição e retomada de onde parou.
 
-**🌐 Demo:** https://dannielcristie.github.io/music-101/
+**🌐 Demo:** https://danniel.com.br/music-101/
 
 ---
 
@@ -102,7 +102,7 @@ A senha é verificada comparando o hash **SHA-256** no arquivo `script.js`. O ha
 3. Em **Settings** > **Actions** > **General**:
    - Em **Workflow permissions**, selecione **Read and write permissions**.
 
-O site ficará disponível em `https://SEU-USUARIO.github.io/music-101/`.
+O site ficará disponível em `https://danniel.com.br/music-101/` (ou em `https://SEU-USUARIO.github.io/music-101/`, que redireciona para o domínio personalizado da conta, se houver).
 
 ---
 
